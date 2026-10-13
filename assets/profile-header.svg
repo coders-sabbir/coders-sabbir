@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Sabbir Hossain — Software Developer</title>
+  <desc id="description">A navy banner with cyan and mint accents, Sabbir's name, and an abstract code window. Web development, full stack, and problem solving.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120" />
+      <stop offset="1" stop-color="#101E30" />
+    </linearGradient>
+    <linearGradient id="accent" x1="72" y1="0" x2="1128" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#2DD4BF" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1030 145) rotate(90) scale(320 380)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155E75" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#155E75" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#94A3B8" stroke-opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#background)" stroke="#243449" stroke-width="2" />
+  <rect x="2" y="2" width="1196" height="356" rx="23" fill="url(#glow)" />
+  <rect x="2" y="2" width="1196" height="356" rx="23" fill="url(#grid)" />
+  <rect x="72" y="1" width="1056" height="3" rx="1.5" fill="url(#accent)" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="72" y="58" width="210" height="30" rx="15" fill="#38BDF8" fill-opacity="0.08" stroke="#38BDF8" stroke-opacity="0.22" />
+    <circle cx="91" cy="73" r="4" fill="#2DD4BF" />
+    <text x="105" y="78" fill="#7DD3FC" font-size="12" font-weight="600" letter-spacing="1.6">SOFTWARE DEVELOPER</text>
+
+    <text x="70" y="171" fill="#F8FAFC" font-size="64" font-weight="700" letter-spacing="-2.2">Sabbir Hossain<tspan fill="#2DD4BF">.</tspan></text>
+    <text x="73" y="214" fill="#94A3B8" font-size="20">Turning ideas into elegant, scalable solutions.</text>
+
+    <path d="M73 252H665" stroke="#27384C" />
+    <text x="73" y="286" fill="#CBD5E1" font-size="14" font-weight="500">WEB DEVELOPMENT</text>
+    <circle cx="259" cy="281" r="2.5" fill="#38BDF8" />
+    <text x="281" y="286" fill="#CBD5E1" font-size="14" font-weight="500">FULL STACK</text>
+    <circle cx="402" cy="281" r="2.5" fill="#38BDF8" />
+    <text x="424" y="286" fill="#CBD5E1" font-size="14" font-weight="500">PROBLEM SOLVING</text>
+  </g>
+
+  <g transform="translate(778 65)">
+    <rect x="16" y="16" width="330" height="224" rx="16" fill="#020617" fill-opacity="0.35" />
+    <rect width="330" height="224" rx="16" fill="#0D1728" stroke="#334155" />
+    <path d="M0 43H330" stroke="#26354A" />
+    <circle cx="22" cy="22" r="4" fill="#FB7185" fill-opacity="0.9" />
+    <circle cx="38" cy="22" r="4" fill="#FBBF24" fill-opacity="0.9" />
+    <circle cx="54" cy="22" r="4" fill="#2DD4BF" fill-opacity="0.9" />
+    <text x="166" y="26" text-anchor="middle" fill="#64748B" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1">developer.ts</text>
+
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13">
+      <text x="24" y="77" fill="#64748B">01</text>
+      <text x="24" y="105" fill="#64748B">02</text>
+      <text x="24" y="133" fill="#64748B">03</text>
+      <text x="24" y="161" fill="#64748B">04</text>
+      <text x="24" y="189" fill="#64748B">05</text>
+
+      <text x="60" y="77"><tspan fill="#7DD3FC">const </tspan><tspan fill="#E2E8F0">developer </tspan><tspan fill="#94A3B8">= {</tspan></text>
+      <text x="76" y="105"><tspan fill="#CBD5E1">build: </tspan><tspan fill="#5EEAD4">"web experiences"</tspan><tspan fill="#94A3B8">,</tspan></text>
+      <text x="76" y="133"><tspan fill="#CBD5E1">solve: </tspan><tspan fill="#5EEAD4">"real problems"</tspan><tspan fill="#94A3B8">,</tspan></text>
+      <text x="76" y="161"><tspan fill="#CBD5E1">learn: </tspan><tspan fill="#5EEAD4">"every day"</tspan></text>
+      <text x="60" y="189" fill="#94A3B8">};</text>
+    </g>
+
+    <rect x="259" y="199" width="94" height="38" rx="10" fill="#102D34" stroke="#2DD4BF" stroke-opacity="0.35" />
+    <path d="M281 211L274 218L281 225M331 211L338 218L331 225M311 209L301 227" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
